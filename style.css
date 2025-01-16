@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: whitesmoke;
+}
+main {
+    background-color: white;
+}
+
+hr{
+        height: 2px;
+        background-color: black;
+        border: none;
+        margin-bottom: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+section{
+    padding-top: 10px;
+}
+.CV{
+    border: 1px solid black;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    margin: 15px 0;
+    border-radius: 1%;
+}
+
+.Name, .locations {
+    text-align: center;
+}
+
+.contact{
+    padding-left: 17%;
+}
+
+#Tech{
+    padding-top: 10px;
+}
+
+#S2, #S3, #S4, #S5, #S6 {
+    margin: 0 5%;
+}
+
+#S6{
+    margin-bottom: 10px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+#space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#space{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .CV {
+        margin: 10px;
+    }
+
+    .Name, .locations {
+        font-size: 1.4em; 
+    }
+
+    .contact {
+        padding-left: 5%;
+        font-size: 0.8em; 
+    }
+
+    #S2, #S3, #S4, #S5, #S6 {
+        margin: 0 5%;
+    }
+
+    .line {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    hr {
+        margin: 10px 0;
+    }
+
+    #space {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .CV {
+        margin: 15px;
+    }
+
+    .Name, .locations {
+        font-size: 1.6em; 
+    }
+
+    .contact {
+        padding-left: 9%;
+        font-size: 0.85em; 
+    }
+
+    #S2, #S3, #S4, #S5, #S6 {
+        margin: 0 7%;
+    }
+
+    .line {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    hr {
+        margin: 10px 0;
+    }
+
+    #space {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .CV {
+        margin: 20px;
+    }
+
+    .Name, .locations {
+        font-size: 1.8em; 
+    }
+
+    .contact {
+        padding-left: 10%;
+        font-size: 0.9em; 
+    }
+
+    #S2, #S3, #S4, #S5, #S6 {
+        margin: 0 5%;
+    }
+
+    .line {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    hr {
+        margin: 15px 0;
+    }
+
+    #space {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .CV {
+        margin: 25px;
+    }
+
+    .Name, .locations {
+        font-size: 2em; 
+    }
+
+    .contact {
+        padding-left: 19%;
+        font-size: 1em; 
+    }
+
+    #S2, #S3, #S4, #S5, #S6 {
+        margin: 0 5%;
+    }
+
+    .line {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    hr {
+        margin: 5px 0;
+    }
+
+    #space {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
